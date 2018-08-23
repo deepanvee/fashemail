@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>the automation of the email functionality using the yopmail </description>
+   <name>fashmate email</name>
+   <tag></tag>
+   <UUID>87d73568-074e-4899-9306-d9fbf779a669</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
