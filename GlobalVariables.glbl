@@ -2,4 +2,14 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://www.yopmail.com/en/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'emilyvoe'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
