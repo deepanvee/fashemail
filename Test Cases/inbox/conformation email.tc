@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>check for the conformation email</description>
+   <name>conformation email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d75ee41f-6e90-4f9f-8639-eea3c7d294a3</testCaseGuid>
+</TestCaseEntity>
