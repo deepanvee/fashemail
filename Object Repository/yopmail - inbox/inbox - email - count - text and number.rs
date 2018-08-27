@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mail - refer - text</name>
+   <name>inbox - email - count - text and number</name>
    <tag></tag>
-   <elementGuidId>116fdd95-d869-4cc2-a10b-d39cb6487ae6</elementGuidId>
+   <elementGuidId>f300fc3d-da81-435a-bda0-e0700c181f5b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,14 +21,14 @@
       <value>nbmail</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0 mail </value>
+      <value>mail </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

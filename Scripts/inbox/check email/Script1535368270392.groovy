@@ -19,3 +19,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('inbox/go to email'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementNotPresent(findTestObject('yopmail - inbox/side menu/inbox - side menu - no email found - refer - text'), 
+    0)
+
+def fromData = WebUI.getText(findTestObject('yopmail - inbox/side menu/inbox - sibe menu - from - fashmate - mail- div'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+println(fromData.toString())
+
+if (fromData.toString().contentEquals('[SPAM]Fashmates')) {
+    def subject = WebUI.getText(findTestObject('yopmail - inbox/side menu/inbox - side menu - fashmates - subject - div'), FailureHandling.STOP_ON_FAILURE)
+	
+	println subject.toString()
+	
+	if(subject.toString().contentEquals(subjectLocal)){
+		
+		println "email received for the given subject"
+		
+		assert (true)
+	}
+	else
+	{
+		println '============== \n email not received for the given subject'
+		assert (false)
+	}
+}
+

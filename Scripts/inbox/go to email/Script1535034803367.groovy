@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.url)
 
@@ -29,5 +30,8 @@ WebUI.setText(findTestObject('yopmail - landing page/landing page - login - text
 
 WebUI.click(findTestObject('yopmail - landing page/landing page - check inbox - button'))
 
-WebUI.waitForElementVisible(findTestObject('yopmail - inbox/inbox - check for email - button'), 60)
+WebUI.verifyElementPresent(findTestObject('yopmail - inbox/inbox - title - refer - text'), 0)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('yopmail - inbox/inbox - complete - generated - email - refer - text'), FailureHandling.STOP_ON_FAILURE), 
+    GlobalVariable.username + '@yopmail.com')
 

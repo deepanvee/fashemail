@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inbox - check for email - button</name>
+   <name>inbox - title - refer - text</name>
    <tag></tag>
-   <elementGuidId>9d4cfcf2-9585-4e2c-9c4b-fbeb288d2502</elementGuidId>
+   <elementGuidId>c654667a-54b3-48dd-8927-804bd0a71811</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>mgif irefresh b</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Check for new mails</value>
+      <value>Inbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;lrefr&quot;]</value>
+      <value>//*[@id=&quot;inboxtit&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

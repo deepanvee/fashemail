@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inbox - refer - text</name>
+   <name>inbox - side menu - mail subjsect - div</name>
    <tag></tag>
-   <elementGuidId>35cfc237-222f-4f9d-bbee-7872cd32aedb</elementGuidId>
+   <elementGuidId>17674439-bef8-40fa-84e9-b8428521e667</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>div</value>
+      <value>//span[@class=&quot;lms&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>ref_element</name>
       <type>Main</type>
-      <value>Inbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;inboxtit&quot;)/div[1]</value>
+      <value>Object Repository/yopmail - inbox/side menu/iframe_ifinbox</value>
    </webElementProperties>
 </WebElementEntity>

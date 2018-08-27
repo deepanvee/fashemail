@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>check whather email received or not</description>
+   <name>check email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccb64db8-1100-4df2-aa30-cf3a006967d4</testCaseGuid>
+   <variable>
+      <defaultValue>'Welcome to Facebook'</defaultValue>
+      <description></description>
+      <id>4c7be07a-e702-4ed8-9934-e708d3acae0f</id>
+      <masked>false</masked>
+      <name>subjectLocal</name>
+   </variable>
+</TestCaseEntity>
